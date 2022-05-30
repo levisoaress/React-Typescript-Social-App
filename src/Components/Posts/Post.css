@@ -1,0 +1,82 @@
+/*========== Posts div Config ==========*/
+.posts{
+    width: 100%;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    
+    padding-block: 1rem;
+}
+
+/*========== Center div Config ==========*/
+.center{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 62rem;
+    height: 54rem;
+
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+/*========== Poster div Config ==========*/
+.poster{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/*========== Poster-pos div Config ==========*/
+.poster-pos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+
+    margin-block: .5rem;
+}
+
+.poster-pos img{
+    max-width: 7rem;
+    max-height: 4.375rem;
+    border-radius: 1rem;
+}
+
+/*========== Photo div Config ==========*/
+.photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo img{
+    max-width: 60rem;
+    max-height: 60rem;
+    border-radius: 1rem;
+    
+}
+
+/*========== Photo-description div Config ==========*/
+.photo-description{
+    max-width: 60rem;
+    max-height: 10rem;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f9f9f9f9;
+    margin-block: .5rem;
+    padding-inline: .5rem;
+    border-radius: 1rem;
+}
+
+.photo-description p{
+    font-size: 1.8rem;
+
+}

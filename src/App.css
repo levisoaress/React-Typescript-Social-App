@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*============== Pre-definitions and variables ==============*/
+:root{
+font-size: 62.5%; /* 1rem = 10px */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*============== General Config ==============*/
+* {
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background-color: #e5e5e5e5;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*============== Bars div Config ==============*/
+.Bars{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  height: 4rem;
+  background-color: #e5e5e5e5;
+  border-bottom: ridge;
+  padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

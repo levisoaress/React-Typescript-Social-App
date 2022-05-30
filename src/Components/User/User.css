@@ -1,0 +1,264 @@
+/*============== Perfil div Config ==============*/
+.perfil{
+    width: 62rem;
+    height: 27rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+    border-radius: 1.0rem;
+    border: groove 0.2rem;
+   
+  }
+
+/*============== More div Config ==============*/
+.perfil-box{
+    width: 18rem;
+    height: 25rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    justify-content:center;
+    border-radius: 1.0rem;
+    
+    padding: 1.5rem;
+  }
+
+  .perfil-box-content{
+    display: flex;
+    align-items: center;
+    width: 14rem;
+    height: 13rem;
+  }
+
+  .perfil-box-content-but{
+    display: flex;
+    align-items: center;
+    width: 14rem;
+    height: 9rem;
+  }
+
+.perfil-box-content-but button{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: .5rem;
+    border: none;
+    cursor:pointer ;
+   
+
+  }
+.perfil-box button a{
+  text-decoration: none;
+  color: black;
+}
+
+.perfil-box-content img{
+    width: 14rem;
+    height: 13rem;
+    border-radius: 100%;
+    
+    
+  }
+
+.perfil-box small{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+/*============== Description div Config ==============*/
+.description{
+    width: 42rem;
+    height: 23rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    margin: .2rem;
+    padding: 1rem;
+    border-radius: 1.0rem;
+    height: 25rem;
+    font-size: 1.8rem;
+  }
+  
+.description h3{
+    margin: .2rem 0;
+    font-weight: 600;
+  }
+
+/*============== User-about div Config ==============*/
+.user-about{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-flow: column;
+    margin-top: 0.9rem;
+  }
+
+.user-about h5,small{
+    font-weight: 500;
+  }
+
+
+  
+  /*============== Bio div Config ==============*/
+
+  .bio{
+    width: 40rem;
+    height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 1rem;
+    
+
+  }
+   /*============== Topic div Config ==============*/
+  .topic{
+    width: 40rem;
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 1rem;
+    
+
+  }
+
+.topic h2{
+    margin-bottom: 4rem;
+  }
+
+.topic-tech{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .followers{
+    display: flex;
+    justify-content: space-around;
+
+    
+  }
+
+/*============== Tecnologies div Config ==============*/
+.numbers{
+    width: 40rem;
+    height: 1.7rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+
+.numbers li{
+    list-style: none;
+  }
+
+  /*============== Contato div Config ==============*/
+.contato{
+    width: 40rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 1.6rem 0;
+    
+  }
+  
+.contato button{
+    width: 40rem;
+    border: none;
+    border-radius: .5rem;
+    height: 2.5rem;
+    cursor: pointer;
+  }
+
+  /*============== horario div Config ==============*/
+.horario{
+    width: 40rem;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0.4rem;
+
+  }
+
+  .Search-bar{
+    position: absolute;
+    top: -2.9rem;
+    width: 62rem;
+    height: 3.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 3rem;
+  }
+
+  .Search-bar input{
+    width: 56rem;
+    border: none;
+    padding-left: .5rem;
+    align-self: center;
+   
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.Search-bar button, input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: groove 0.1rem;
+    margin-top: .3rem;
+    padding-right: .5rem;
+    border-radius: .5rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.Search-bar img{
+    width: 1.4rem;
+    height: 1.4rem;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    margin: .2rem;
+    
+}
+
+.Search-bar-button{
+  display: flex;
+}
+
+#usersearch{
+  border-width: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+#lupa{
+  border: none;
+  border-radius: 0 0 0 0;
+}
+
+#back{
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+  
+  
+  
+
+  

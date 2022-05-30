@@ -1,0 +1,66 @@
+/*============== Home div Config ==============*/
+.home{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+/*============== User div Config ==============*/
+.user{
+    width: 62rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-block: 2rem;
+    box-sizing: border-box;
+   
+}
+
+/*============== Container div Config ==============*/
+.container{
+    width: 62rem;
+    height: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1rem;
+   
+  }
+/*============== container-son div Config ==============*/
+  .container-son{
+      width: 62rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column;
+  } 
+
+  /*============== Pessoas div Config ==============*/
+  .Pessoas-title{
+      display: flex;
+      justify-content: flex-start;
+      width: 63rem;
+      margin-block: 2rem;
+      padding-left: 0.5rem;
+      padding-right: 0;
+      margin-right: 0;
+      border-bottom: groove 0.1rem;
+  }
+
+  .Pessoas-title h1{
+    color: black;
+  }
+
+  /*============== Timeline div Config ==============*/
+  .timeLine{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: .5rem 0;
+    border-radius: 1rem;
+  }
