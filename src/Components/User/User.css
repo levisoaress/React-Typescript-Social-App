@@ -1,45 +1,54 @@
 /*============== Perfil div Config ==============*/
+
 .perfil{
     width: 62rem;
     height: 27rem;
     margin: 0;
+
     display: flex;
     justify-content: center;
     align-items: center;
   
-    
     border-radius: 1.0rem;
     border: groove 0.2rem;
-   
-  }
+}
 
-/*============== More div Config ==============*/
+/*============== Perfil-box Config ==============*/
+
 .perfil-box{
     width: 18rem;
     height: 25rem;
+
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    justify-content:center;
-    border-radius: 1.0rem;
-    
-    padding: 1.5rem;
-  }
 
-  .perfil-box-content{
+    border-radius: 1.0rem;
+    padding: 1.5rem;
+}
+
+.perfil-box small{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/*============== perfil-box-content Config ==============*/
+
+.perfil-box-content{
     display: flex;
     align-items: center;
     width: 14rem;
     height: 13rem;
-  }
+}
 
-  .perfil-box-content-but{
+/*============== perfil-box-content-but Config ==============*/
+.perfil-box-content-but{
     display: flex;
     align-items: center;
     width: 14rem;
     height: 9rem;
-  }
+}
 
 .perfil-box-content-but button{
     width: 100%;
@@ -47,27 +56,21 @@
     border-radius: .5rem;
     border: none;
     cursor:pointer ;
-   
+}
 
-  }
-.perfil-box button a{
-  text-decoration: none;
-  color: black;
+.perfil-box-content-but button a{
+    text-decoration: none;
+    color: black;
 }
 
 .perfil-box-content img{
     width: 14rem;
     height: 13rem;
     border-radius: 100%;
-    
-    
-  }
-
-.perfil-box small{
-  font-size: 1.5rem;
-  font-weight: 500;
 }
+
 /*============== Description div Config ==============*/
+
 .description{
     width: 42rem;
     height: 23rem;
@@ -81,55 +84,49 @@
     border-radius: 1.0rem;
     height: 25rem;
     font-size: 1.8rem;
-  }
+}
   
 .description h3{
     margin: .2rem 0;
     font-weight: 600;
-  }
+}
 
 /*============== User-about div Config ==============*/
+
 .user-about{
     width: 100%;
     height: 20rem;
     display: flex;
     flex-flow: column;
     margin-top: 0.9rem;
-  }
-
+}
 .user-about h5,small{
     font-weight: 500;
-  }
+}
+/*============== Bio div Config ==============*/
 
-
-  
-  /*============== Bio div Config ==============*/
-
-  .bio{
+.bio{
     width: 40rem;
     height: 400px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     gap: 1rem;
-    
+}
+/*============== Topic div Config ==============*/
 
-  }
-   /*============== Topic div Config ==============*/
-  .topic{
+.topic{
     width: 40rem;
     height: 300px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     gap: 1rem;
-    
-
-  }
+}
 
 .topic h2{
     margin-bottom: 4rem;
-  }
+}
 
 .topic-tech{
     width: 100%;
@@ -138,16 +135,14 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-  }
+}
 
-  .followers{
+.followers{
     display: flex;
     justify-content: space-around;
-
-    
-  }
-
+}
 /*============== Tecnologies div Config ==============*/
+
 .numbers{
     width: 40rem;
     height: 1.7rem;
@@ -155,22 +150,20 @@
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
-  }
+}
   
-
 .numbers li{
     list-style: none;
-  }
+}
+/*============== Contato div Config ==============*/
 
-  /*============== Contato div Config ==============*/
 .contato{
     width: 40rem;
     height: 2.5rem;
     display: flex;
     justify-content: center;
     margin: 1.6rem 0;
-    
-  }
+}
   
 .contato button{
     width: 40rem;
@@ -178,9 +171,9 @@
     border-radius: .5rem;
     height: 2.5rem;
     cursor: pointer;
-  }
+}
+/*============== horario div Config ==============*/
 
-  /*============== horario div Config ==============*/
 .horario{
     width: 40rem;
     height: 1.8rem;
@@ -190,9 +183,10 @@
     margin-top: 2rem;
     padding: 0.4rem;
 
-  }
+}
+/*============== Search-bar div Config ==============*/
 
-  .Search-bar{
+.Search-bar{
     position: absolute;
     top: -2.9rem;
     width: 62rem;
@@ -201,14 +195,13 @@
     justify-content: center;
     align-items: center;
     margin-block: 3rem;
-  }
+}
 
-  .Search-bar input{
+.Search-bar input{
     width: 56rem;
     border: none;
     padding-left: .5rem;
     align-self: center;
-   
 }
 
 textarea:focus, input:focus {
@@ -236,28 +229,27 @@ textarea:focus, input:focus {
     border: none;
     background-color: white;
     margin: .2rem;
-    
 }
 
 .Search-bar-button{
-  display: flex;
+    display: flex;
 }
 
 #usersearch{
-  border-width: none;
-  border-radius: 0.5rem 0 0 0.5rem;
+    border-width: none;
+    border-radius: 0.5rem 0 0 0.5rem;
 }
 
 #lupa{
-  border: none;
-  border-radius: 0 0 0 0;
+    border: none;
+    border-radius: 0 0 0 0;
 }
 
 #back{
-  border: none;
-  border-radius: 0 0.5rem 0.5rem 0;
+    border: none;
+    border-radius: 0 0.5rem 0.5rem 0;
 }
-  
+/*==========================================*/
   
   
 
